@@ -1,0 +1,47 @@
+header {
+	width: 100%;
+	background-color: #ccccff;
+	float: center;
+	position: relative;
+	padding:10px;
+	margin: auto;
+	text-align:center;
+}
+@font-face {
+	font-family: 'Master of Break';
+	src: url(fonts/master_of_break.otf);
+}
+h1 {
+	font-family: 'Master of Break';
+	font-size: 100px;
+}
+img {
+	float:right;
+	display:inline;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	float: center;
+	position: relative;
+	padding:10px;
+	margin: auto;
+	text-align:center;
+	font-color: white;
+}
+.footer p {
+	display:inline;
+}
+.footer img {
+	float:right;
+	width:10%;
+}
+a {
+	display: block;
+	text-decoration: none;
+}
+
+div.col-md-8 p:nth-child(3) {
+	font-style: italic;
+}
